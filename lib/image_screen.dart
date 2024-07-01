@@ -237,7 +237,7 @@ class ImageScreen extends StatelessWidget {
                                     width: 3.w,
                                   ),
                                   Text(
-                                    'Pick Clothes Image',
+                                    'Pick Cloth Image',
                                     style: TextStyle(color: Color(0xffe84a4b)),
                                   ),
                                 ],
@@ -318,7 +318,10 @@ class ImageScreen extends StatelessWidget {
                   child: _resultImageUrl.value != null
                       ? Image.network(_resultImageUrl.value!)
                       : SizedBox.shrink(),
-                ))
+                )),
+            SizedBox(
+              height: 30.h,
+            ),
           ],
         ),
       ),
