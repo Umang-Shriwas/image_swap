@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "288359753880",
+    "project_id": "image-swap-cde17",
+    "storage_bucket": "image-swap-cde17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288359753880:android:c339dae3b1df9f166c48ed",
+        "android_client_info": {
+          "package_name": "com.example.image_swap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUStujyV2gf3AxzivbknrcNadmVQq_m8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
