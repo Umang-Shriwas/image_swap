@@ -171,16 +171,29 @@ class ImageScreen extends StatelessWidget {
                         onTap: _pickBaseImage,
                         child: Container(
                           height: 50.h,
-                          width: 150.w,
+                          width: 160.w,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10.r),
                               border: Border.all(
                                   color: Color(0xffe84a4b), width: 2.h)),
-                          child: Center(
-                            child: Text(
-                              'Pick Base Image',
-                              style: TextStyle(color: Color(0xffe84a4b)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Row(
+                              children: [
+                                Icon(
+                                  Icons.camera,
+                                  size: 20.h,
+                                  color: Color(0xffe84a4b),
+                                ),
+                                SizedBox(
+                                  width: 3.w,
+                                ),
+                                Text(
+                                  'Pick Base Image',
+                                  style: TextStyle(color: Color(0xffe84a4b)),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -204,16 +217,31 @@ class ImageScreen extends StatelessWidget {
                         onTap: _pickClothesImage,
                         child: Container(
                           height: 50.h,
-                          width: 150.w,
+                          width: 160.w,
                           decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(10.r),
                               border: Border.all(
                                   color: Color(0xffe84a4b), width: 2.h)),
                           child: Center(
-                            child: Text(
-                              'Pick Clothes Image',
-                              style: TextStyle(color: Color(0xffe84a4b)),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.photo_camera_front_outlined,
+                                    size: 20.sp,
+                                    color: Color(0xffe84a4b),
+                                  ),
+                                  SizedBox(
+                                    width: 3.w,
+                                  ),
+                                  Text(
+                                    'Pick Clothes Image',
+                                    style: TextStyle(color: Color(0xffe84a4b)),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
